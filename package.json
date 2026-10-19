@@ -1,0 +1,32 @@
+{
+  "name": "lcdp-ios",
+  "version": "1.0.0",
+  "description": "LCDP 运行态 iOS 壳（Capacitor，内嵌线上运行态 + 设备桥）",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/naka1205/lcdp-ios.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/naka1205/lcdp-ios/issues"
+  },
+  "homepage": "https://github.com/naka1205/lcdp-ios#readme",
+  "private": "true",
+  "dependencies": {
+    "@capacitor-mlkit/barcode-scanning": "^8.2.1",
+    "@capacitor/android": "^8.5.3",
+    "@capacitor/camera": "^8.2.6",
+    "@capacitor/core": "^8.5.3",
+    "@capacitor/ios": "^8.5.3"
+  },
+  "devDependencies": {
+    "@capacitor/cli": "^8.5.3",
+    "typescript": "^7.0.2"
+  }
+}

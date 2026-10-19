@@ -1,0 +1,10 @@
+node_modules/
+dist/
+
+# iOS / Xcode
+ios/build/
+*.zip
+
+# OS / editor
+.DS_Store
+.idea/
